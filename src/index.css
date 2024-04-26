@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+span {
+  display: block;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.MuiFormLabel-root span {
+  display: inline-block;
+}
+.sign-in {
+  background: url(../src/assets/image/bg-login.jpeg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+input:focus {
+  outline: none;
+}
+.active {
+  color: rgb(159, 159, 217);
+}
+
+.lazy-load-image-background {
+  width: 100%;
+}
+
+select {
+  appearance: none;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #82f238;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+/* .overlay{
+  background-color: rgba(192, 192, 192, 0.466);
+} */
